@@ -7,9 +7,13 @@ either ‘1’ or ‘0’ i.e. either present (1) or absent (0). It is designed 
 
 Key Features:
         1. Biometry: The system consists of a fingerprint scanner which helps in quick collection of biometric data which is unique to each user. 
+        
         2. Internet connectivity: It consists of a Wi-Fi module through which internet connectivity is established easily. 
+        
         3. Absent notification: The system has a GSM MODEM with which an SMS can be sent to parents in case of absence of students. 
+        
         4. User interface: The system has display, buzzer and LED indicators which form a simple yet effective user interface. 
+        
         5. Cloud database: The system uploads all the data to a cloud-based application hence the accessibility of data is made easy.
     
 Benefits of Using Attendance Management System:
