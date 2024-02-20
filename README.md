@@ -18,6 +18,7 @@ Key Features:
         5. Cloud database: The system uploads all the data to a cloud-based application hence the accessibility of data is made easy.
     
 Benefits of Using Attendance Management System:
+
         1. No Fuss in Workflow Management. 
         2. Paperless Work Environment. 
         3. Real-Time Tracking. 
