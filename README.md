@@ -6,6 +6,7 @@ fingerprint module waits for the stop signal sent by the NodeMCU. In the second 
 either ‘1’ or ‘0’ i.e. either present (1) or absent (0). It is designed to be reliable and low power. It is compact in size and it is designed to replace traditional approach for attendance marking.
 
 Key Features:
+
         1. Biometry: The system consists of a fingerprint scanner which helps in quick collection of biometric data which is unique to each user. 
         
         2. Internet connectivity: It consists of a Wi-Fi module through which internet connectivity is established easily. 
