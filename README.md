@@ -6,6 +6,7 @@ fingerprint module waits for the stop signal sent by the NodeMCU. In the second 
 either ‘1’ or ‘0’ i.e. either present (1) or absent (0). It is designed to be reliable and low power. It is compact in size and it is designed to replace traditional approach for attendance marking.
 
 Key Features:
+
         1. Biometry: The system consists of a fingerprint scanner which helps in quick collection of biometric data which is unique to each user. 
         2. Internet connectivity: It consists of a Wi-Fi module through which internet connectivity is established easily.   
         3. Absent notification: The system has a GSM MODEM with which an SMS can be sent to parents in case of absence of students. 
@@ -13,6 +14,7 @@ Key Features:
         5. Cloud database: The system uploads all the data to a cloud-based application hence the accessibility of data is made easy.
     
 Benefits of Using Attendance Management System:
+
         1. No Fuss in Workflow Management. 
         2. Paperless Work Environment. 
         3. Real-Time Tracking. 
@@ -30,6 +32,7 @@ Benefits of Using Attendance Management System:
             he proposed system of attendance monitoring works in real time with no manual supervision. The basic concepts used are sensor data collection, comparison and verification; user interface, decision making, wireless communication and alerting. The system acts as one common unit that coordinates between students, school/college staff, management and parents. The students can log in their attendance just by placing the finger on the fingerprint sensor while entering the class. This eliminates the manual process of attendance collection thus saving a good amount of time. The attendance data is directly uploaded to a web portal school/college immediately with the help of Wi-Fi. This prevents loss of data due to human errors and also helps in maintaining the records safely. With the help of collected data, analytics can also be produced which helps in behavioural study of the students. The system also consists of a feature which sends an SMS to the parents in case of absence of the students. The system waits for a pre-set amount of time after which the particular student will be marked absent and an immediate SMS will be sent to the parents informing the same. This helps the parents to monitor their children in a better way. It also ensures the safety of the students.
 
 Program Flow for Node-MCU:
+
         1. Power on 
         2. Load timetable 
         3. Connect to Wi-Fi and internet 
@@ -41,6 +44,7 @@ Program Flow for Node-MCU:
         9. It receives the attendance data of the latest period and uploads the same to Google Sheets 
         10. Goes back to the loop to check the time for the next period
 Program Flow for Arduino Nano:
+
         1. Power on 
         2. Update the display, LEDs and buzzer 
         3. Check continuously if there is a message from the NODE MCU to take attendance 
